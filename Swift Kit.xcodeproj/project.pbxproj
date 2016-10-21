@@ -22,6 +22,13 @@
 		0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */; };
 		0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */; };
 		0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5851DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift */; };
+		0B4CC58E1DBA7C09003FB2F6 /* CellSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5881DBA7C09003FB2F6 /* CellSection.swift */; };
+		0B4CC58F1DBA7C09003FB2F6 /* ItemsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5891DBA7C09003FB2F6 /* ItemsSection.swift */; };
+		0B4CC5901DBA7C09003FB2F6 /* TableActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58A1DBA7C09003FB2F6 /* TableActions.swift */; };
+		0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58B1DBA7C09003FB2F6 /* TableCell.swift */; };
+		0B4CC5921DBA7C09003FB2F6 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */; };
+		0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */; };
+		0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */; };
 		0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */; };
 		0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342D1DBA6B8E0077C628 /* ViewController.swift */; };
 		0B9334311DBA6B8E0077C628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93342F1DBA6B8E0077C628 /* Main.storyboard */; };
@@ -56,6 +63,13 @@
 		0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Combine.swift"; sourceTree = "<group>"; };
 		0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+Optional.swift"; sourceTree = "<group>"; };
 		0B4CC5851DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+NSNumber.swift"; sourceTree = "<group>"; };
+		0B4CC5881DBA7C09003FB2F6 /* CellSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSection.swift; sourceTree = "<group>"; };
+		0B4CC5891DBA7C09003FB2F6 /* ItemsSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsSection.swift; sourceTree = "<group>"; };
+		0B4CC58A1DBA7C09003FB2F6 /* TableActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableActions.swift; sourceTree = "<group>"; };
+		0B4CC58B1DBA7C09003FB2F6 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
+		0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerModel.swift; sourceTree = "<group>"; };
 		0B9334281DBA6B8E0077C628 /* Swift Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B93342D1DBA6B8E0077C628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +107,9 @@
 				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
 				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
 				0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */,
+				0B4CC5941DBA7C20003FB2F6 /* PickerModel */,
 				0B4CC55C1DBA6E05003FB2F6 /* String */,
+				0B4CC5871DBA7BDF003FB2F6 /* TableModel */,
 				0B4CC5671DBA702A003FB2F6 /* UIButton */,
 				0B4CC56A1DBA70D7003FB2F6 /* UIColor */,
 				0B4CC5601DBA6E20003FB2F6 /* UIImageView */,
@@ -186,6 +202,27 @@
 				0B4CC5771DBA7338003FB2F6 /* KeyboardNotification.swift */,
 			);
 			name = KeyboardNotification;
+			sourceTree = "<group>";
+		};
+		0B4CC5871DBA7BDF003FB2F6 /* TableModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5881DBA7C09003FB2F6 /* CellSection.swift */,
+				0B4CC5891DBA7C09003FB2F6 /* ItemsSection.swift */,
+				0B4CC58A1DBA7C09003FB2F6 /* TableActions.swift */,
+				0B4CC58B1DBA7C09003FB2F6 /* TableCell.swift */,
+				0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */,
+				0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */,
+			);
+			name = TableModel;
+			sourceTree = "<group>";
+		};
+		0B4CC5941DBA7C20003FB2F6 /* PickerModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */,
+			);
+			name = PickerModel;
 			sourceTree = "<group>";
 		};
 		0B93341F1DBA6B8D0077C628 = {
@@ -339,6 +376,8 @@
 				0B4CC5751DBA72A9003FB2F6 /* Array+Find.swift in Sources */,
 				0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */,
 				0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */,
+				0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */,
+				0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */,
 				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
 				0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */,
@@ -346,13 +385,18 @@
 				0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */,
 				0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */,
 				0B4CC57A1DBA73D0003FB2F6 /* UIImage+Colorized.swift in Sources */,
+				0B4CC5901DBA7C09003FB2F6 /* TableActions.swift in Sources */,
 				0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */,
+				0B4CC58E1DBA7C09003FB2F6 /* CellSection.swift in Sources */,
 				0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */,
 				0B4CC57E1DBA7824003FB2F6 /* UIImage+Empty.swift in Sources */,
+				0B4CC5921DBA7C09003FB2F6 /* TableModel.swift in Sources */,
 				0B4CC5781DBA7338003FB2F6 /* KeyboardNotification.swift in Sources */,
+				0B4CC58F1DBA7C09003FB2F6 /* ItemsSection.swift in Sources */,
 				0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */,
 				0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */,
 				0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */,
+				0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
