@@ -45,23 +45,3 @@ public func /(lhs: NSDecimalNumber, rhs: NSDecimalNumber) -> NSDecimalNumber {
 public func ^(lhs: NSDecimalNumber, rhs: Int) -> NSDecimalNumber {
     return lhs.raising(toPower: rhs)
 }
-
-protocol OptionalNumber {}
-extension NSNumber: OptionalNumber {}
-
-extension Optional where Wrapped: OptionalNumber {
-    var valueOrZero : NSDecimalNumber {
-        
-        guard let val = self as? NSNumber else {
-            return NSDecimalNumber.zero
-        }
-        return NSDecimalNumber(decimal: val.decimalValue)
-    }
-}
-
-func decimalValue(aNumber : NSNumber!) -> NSDecimalNumber {
-    guard let val = aNumber as NSNumber? else {
-        return NSDecimalNumber.zero
-    }
-    return NSDecimalNumber(decimal: val.decimalValue)
-}

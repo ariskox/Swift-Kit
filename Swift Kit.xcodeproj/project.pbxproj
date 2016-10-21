@@ -13,6 +13,15 @@
 		0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC56B1DBA70EE003FB2F6 /* UIColor+RGB.swift */; };
 		0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */; };
 		0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */; };
+		0B4CC5751DBA72A9003FB2F6 /* Array+Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5741DBA72A9003FB2F6 /* Array+Find.swift */; };
+		0B4CC5781DBA7338003FB2F6 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5771DBA7338003FB2F6 /* KeyboardNotification.swift */; };
+		0B4CC57A1DBA73D0003FB2F6 /* UIImage+Colorized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5791DBA73D0003FB2F6 /* UIImage+Colorized.swift */; };
+		0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC57B1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift */; };
+		0B4CC57E1DBA7824003FB2F6 /* UIImage+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC57D1DBA7824003FB2F6 /* UIImage+Empty.swift */; };
+		0B4CC5801DBA782D003FB2F6 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC57F1DBA782D003FB2F6 /* UIImage+Color.swift */; };
+		0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */; };
+		0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */; };
+		0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5851DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift */; };
 		0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */; };
 		0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342D1DBA6B8E0077C628 /* ViewController.swift */; };
 		0B9334311DBA6B8E0077C628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93342F1DBA6B8E0077C628 /* Main.storyboard */; };
@@ -38,6 +47,15 @@
 		0B4CC56B1DBA70EE003FB2F6 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Luhn.swift"; sourceTree = "<group>"; };
 		0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumbers+Helpers.swift"; sourceTree = "<group>"; };
+		0B4CC5741DBA72A9003FB2F6 /* Array+Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Find.swift"; sourceTree = "<group>"; };
+		0B4CC5771DBA7338003FB2F6 /* KeyboardNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
+		0B4CC5791DBA73D0003FB2F6 /* UIImage+Colorized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Colorized.swift"; sourceTree = "<group>"; };
+		0B4CC57B1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ResizedCanvas.swift"; sourceTree = "<group>"; };
+		0B4CC57D1DBA7824003FB2F6 /* UIImage+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Empty.swift"; sourceTree = "<group>"; };
+		0B4CC57F1DBA782D003FB2F6 /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Combine.swift"; sourceTree = "<group>"; };
+		0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+Optional.swift"; sourceTree = "<group>"; };
+		0B4CC5851DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+NSNumber.swift"; sourceTree = "<group>"; };
 		0B9334281DBA6B8E0077C628 /* Swift Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B93342D1DBA6B8E0077C628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,8 +89,10 @@
 		0B4CC55B1DBA6E01003FB2F6 /* Kit */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CC5731DBA729F003FB2F6 /* Array */,
 				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
 				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
+				0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */,
 				0B4CC55C1DBA6E05003FB2F6 /* String */,
 				0B4CC5671DBA702A003FB2F6 /* UIButton */,
 				0B4CC56A1DBA70D7003FB2F6 /* UIColor */,
@@ -110,6 +130,11 @@
 		0B4CC55F1DBA6E1B003FB2F6 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CC5791DBA73D0003FB2F6 /* UIImage+Colorized.swift */,
+				0B4CC57B1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift */,
+				0B4CC57D1DBA7824003FB2F6 /* UIImage+Empty.swift */,
+				0B4CC57F1DBA782D003FB2F6 /* UIImage+Color.swift */,
+				0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */,
 			);
 			name = UIImage;
 			sourceTree = "<group>";
@@ -141,8 +166,26 @@
 			isa = PBXGroup;
 			children = (
 				0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */,
+				0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */,
+				0B4CC5851DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift */,
 			);
 			name = NSDecimalNumber;
+			sourceTree = "<group>";
+		};
+		0B4CC5731DBA729F003FB2F6 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5741DBA72A9003FB2F6 /* Array+Find.swift */,
+			);
+			name = Array;
+			sourceTree = "<group>";
+		};
+		0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5771DBA7338003FB2F6 /* KeyboardNotification.swift */,
+			);
+			name = KeyboardNotification;
 			sourceTree = "<group>";
 		};
 		0B93341F1DBA6B8D0077C628 = {
@@ -293,14 +336,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4CC5751DBA72A9003FB2F6 /* Array+Find.swift in Sources */,
 				0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */,
 				0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */,
+				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
+				0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */,
+				0B4CC5801DBA782D003FB2F6 /* UIImage+Color.swift in Sources */,
+				0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */,
 				0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */,
+				0B4CC57A1DBA73D0003FB2F6 /* UIImage+Colorized.swift in Sources */,
 				0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */,
 				0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */,
+				0B4CC57E1DBA7824003FB2F6 /* UIImage+Empty.swift in Sources */,
+				0B4CC5781DBA7338003FB2F6 /* KeyboardNotification.swift in Sources */,
 				0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */,
 				0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */,
+				0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
