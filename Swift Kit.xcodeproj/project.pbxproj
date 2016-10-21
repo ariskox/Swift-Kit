@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */; };
+		0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */; };
+		0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5681DBA7037003FB2F6 /* UIButton+BackgroundColor.swift */; };
+		0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC56B1DBA70EE003FB2F6 /* UIColor+RGB.swift */; };
+		0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */; };
+		0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */; };
 		0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */; };
 		0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342D1DBA6B8E0077C628 /* ViewController.swift */; };
 		0B9334311DBA6B8E0077C628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93342F1DBA6B8E0077C628 /* Main.storyboard */; };
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Nil.swift"; sourceTree = "<group>"; };
+		0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Uppercase.swift"; sourceTree = "<group>"; };
+		0B4CC5681DBA7037003FB2F6 /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
+		0B4CC56B1DBA70EE003FB2F6 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Luhn.swift"; sourceTree = "<group>"; };
+		0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumbers+Helpers.swift"; sourceTree = "<group>"; };
 		0B9334281DBA6B8E0077C628 /* Swift Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B93342D1DBA6B8E0077C628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4CC55B1DBA6E01003FB2F6 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
+				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
+				0B4CC55C1DBA6E05003FB2F6 /* String */,
+				0B4CC5671DBA702A003FB2F6 /* UIButton */,
+				0B4CC56A1DBA70D7003FB2F6 /* UIColor */,
+				0B4CC5601DBA6E20003FB2F6 /* UIImageView */,
+				0B4CC55F1DBA6E1B003FB2F6 /* UIImage */,
+				0B4CC55E1DBA6E13003FB2F6 /* UIView */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		0B4CC55C1DBA6E05003FB2F6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */,
+				0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */,
+				0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */,
+			);
+			name = String;
+			sourceTree = "<group>";
+		};
+		0B4CC55D1DBA6E0C003FB2F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		0B4CC55E1DBA6E13003FB2F6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		0B4CC55F1DBA6E1B003FB2F6 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		0B4CC5601DBA6E20003FB2F6 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIImageView;
+			sourceTree = "<group>";
+		};
+		0B4CC5671DBA702A003FB2F6 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5681DBA7037003FB2F6 /* UIButton+BackgroundColor.swift */,
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		0B4CC56A1DBA70D7003FB2F6 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC56B1DBA70EE003FB2F6 /* UIColor+RGB.swift */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
+		0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */,
+			);
+			name = NSDecimalNumber;
+			sourceTree = "<group>";
+		};
 		0B93341F1DBA6B8D0077C628 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +166,7 @@
 		0B93342A1DBA6B8E0077C628 /* Swift Kit */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CC55B1DBA6E01003FB2F6 /* Kit */,
 				0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */,
 				0B93342D1DBA6B8E0077C628 /* ViewController.swift */,
 				0B93342F1DBA6B8E0077C628 /* Main.storyboard */,
@@ -147,11 +237,13 @@
 					0B9334271DBA6B8E0077C628 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = PWD9C9BJ2V;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					0B93343B1DBA6B8E0077C628 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = PWD9C9BJ2V;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0B9334271DBA6B8E0077C628;
 					};
@@ -201,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */,
+				0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */,
+				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
+				0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */,
+				0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */,
 				0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */,
 				0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */,
+				0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +508,7 @@
 				0B9334471DBA6B8E0077C628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B9334481DBA6B8E0077C628 /* Build configuration list for PBXNativeTarget "Swift KitUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +517,7 @@
 				0B93344A1DBA6B8E0077C628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
