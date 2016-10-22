@@ -10,7 +10,7 @@ import UIKit
 
 extension UIImage {
 
-    func draw(image: UIImage, rect: CGRect) -> UIImage? {
+    func combinedWith(image: UIImage, drawnInRect: CGRect) -> UIImage? {
 
         let rect = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, self.scale)
@@ -18,9 +18,9 @@ extension UIImage {
         self.draw(at: CGPoint.zero)
         image.draw(in: rect)
     
-        let colorizedImage = UIGraphicsGetImageFromCurrentImageContext()
+        let combinedImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
 
-        return colorizedImage
+        return combinedImage
     }
 }
