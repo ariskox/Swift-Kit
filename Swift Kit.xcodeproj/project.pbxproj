@@ -41,6 +41,7 @@
 		0B9334411DBA6B8E0077C628 /* Swift_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9334401DBA6B8E0077C628 /* Swift_KitUITests.swift */; };
 		0BA16E0E1DBBC02B00383850 /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E0D1DBBC02B00383850 /* String+Email.swift */; };
 		0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */; };
+		0BA16E141DBBD17E00383850 /* ScrollViewKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		0B9334421DBA6B8E0077C628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BA16E0D1DBBC02B00383850 /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
 		0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EmailTLDs.swift"; sourceTree = "<group>"; };
+		0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewKeyboardHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				0B4CC5601DBA6E20003FB2F6 /* UIImageView */,
 				0B4CC55F1DBA6E1B003FB2F6 /* UIImage */,
 				0B4CC55E1DBA6E13003FB2F6 /* UIView */,
+				0BA16E121DBBD15B00383850 /* UIScrollView */,
 			);
 			name = Kit;
 			sourceTree = "<group>";
@@ -308,6 +311,14 @@
 				0B9334421DBA6B8E0077C628 /* Info.plist */,
 			);
 			path = "Swift KitUITests";
+			sourceTree = "<group>";
+		};
+		0BA16E121DBBD15B00383850 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */,
+			);
+			name = UIScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,6 +478,7 @@
 				0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */,
 				0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */,
 				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
+				0BA16E141DBBD17E00383850 /* ScrollViewKeyboardHelper.swift in Sources */,
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
 				0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */,
 				0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */,
