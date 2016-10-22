@@ -39,6 +39,8 @@
 		0B9334331DBA6B8E0077C628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9334321DBA6B8E0077C628 /* Assets.xcassets */; };
 		0B9334361DBA6B8E0077C628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9334341DBA6B8E0077C628 /* LaunchScreen.storyboard */; };
 		0B9334411DBA6B8E0077C628 /* Swift_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9334401DBA6B8E0077C628 /* Swift_KitUITests.swift */; };
+		0BA16E0E1DBBC02B00383850 /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E0D1DBBC02B00383850 /* String+Email.swift */; };
+		0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,8 @@
 		0B93343C1DBA6B8E0077C628 /* Swift KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9334401DBA6B8E0077C628 /* Swift_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_KitUITests.swift; sourceTree = "<group>"; };
 		0B9334421DBA6B8E0077C628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA16E0D1DBBC02B00383850 /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EmailTLDs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 				0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */,
 				0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */,
 				0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */,
+				0BA16E0D1DBBC02B00383850 /* String+Email.swift */,
+				0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -457,10 +463,12 @@
 				0B4CC5751DBA72A9003FB2F6 /* Array+Find.swift in Sources */,
 				0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */,
 				0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */,
+				0BA16E0E1DBBC02B00383850 /* String+Email.swift in Sources */,
 				0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */,
 				0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */,
 				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
+				0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */,
 				0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */,
 				0B4CC5801DBA782D003FB2F6 /* UIImage+Color.swift in Sources */,
 				0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */,
@@ -709,6 +717,7 @@
 				0B1AF3471DBA93AE00A53D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B9334231DBA6B8D0077C628 /* Build configuration list for PBXProject "Swift Kit" */ = {
 			isa = XCConfigurationList;

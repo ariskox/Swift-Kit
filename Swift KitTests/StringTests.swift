@@ -47,4 +47,28 @@ class StringTests: XCTestCase {
         XCTAssertFalse("a".isLuhn())
         XCTAssertFalse("4111111111111111a".isLuhn())
     }
+    
+    func testIsEmail() {
+        
+        XCTAssertTrue("abcd@abcd.com".isEmail())
+        XCTAssertTrue("abcd@very.long.domain.with.subdomain.org".isEmail())
+        XCTAssertTrue("ABCD@ABCD.COM".isEmail())
+        XCTAssertFalse("abcd@abcd.nonexisting".isEmail())
+        
+        XCTAssertFalse("".isEmail())
+        XCTAssertFalse("1".isEmail())
+        XCTAssertFalse("@com".isEmail())
+        XCTAssertFalse("@zz.com".isEmail())
+        XCTAssertFalse("z@com".isEmail())
+        XCTAssertFalse("abcd@@abcd.com".isEmail())
+        XCTAssertFalse("abcd@".isEmail())
+        XCTAssertFalse("abcd@.".isEmail())
+        XCTAssertFalse("abcd@.com".isEmail())
+        
+        XCTAssertFalse("abcd@abcd.google".isEmail())
+        XCTAssertTrue("abcd@abcd.google".isEmail(extended: true ))
+        XCTAssertTrue("abcd@abcd.accountants".isEmail(extended: true ))
+        XCTAssertTrue("abcd@abcd.bananarepublic".isEmail(extended: true ))
+
+    }
 }
