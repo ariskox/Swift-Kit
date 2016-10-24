@@ -1,0 +1,13 @@
+<key>UIAppFonts</key>
+<array>
+    <string>Fonts/Roboto-Bold.ttf</string>
+    <string>Fonts/Roboto-BoldItalic.ttf</string>
+    <string>Fonts/Roboto-Italic.ttf</string>
+    <string>Fonts/Roboto-Light.ttf</string>
+    <string>Fonts/Roboto-LightItalic.ttf</string>
+    <string>Fonts/Roboto-Medium.ttf</string>
+    <string>Fonts/Roboto-MediumItalic.ttf</string>
+    <string>Fonts/Roboto-Regular.ttf</string>
+    <string>Fonts/Roboto-Thin.ttf</string>
+    <string>Fonts/Roboto-ThinItalic.ttf</string>
+</array>

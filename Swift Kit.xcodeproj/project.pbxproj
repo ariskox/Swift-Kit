@@ -33,6 +33,10 @@
 		0B4CC5921DBA7C09003FB2F6 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */; };
 		0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */; };
 		0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */; };
+		0B6110BE1DBE6B8300E33973 /* Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6110BD1DBE6B8300E33973 /* Roboto.swift */; };
+		0B6110C01DBE6BCD00E33973 /* Roboto-Info.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0B6110BF1DBE6BCD00E33973 /* Roboto-Info.xml */; };
+		0B6110C21DBE6BFD00E33973 /* RobotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6110C11DBE6BFD00E33973 /* RobotoTests.swift */; };
+		0B6110D91DBE6D1800E33973 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0B6110D81DBE6D1800E33973 /* Fonts */; };
 		0B6FD2571DBDF90D007624F4 /* UIView+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */; };
 		0B6FD25A1DBDF9D2007624F4 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FD2591DBDF9D2007624F4 /* Regex.swift */; };
 		0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */; };
@@ -94,6 +98,10 @@
 		0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
 		0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
 		0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerModel.swift; sourceTree = "<group>"; };
+		0B6110BD1DBE6B8300E33973 /* Roboto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roboto.swift; sourceTree = "<group>"; };
+		0B6110BF1DBE6BCD00E33973 /* Roboto-Info.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Roboto-Info.xml"; sourceTree = "<group>"; };
+		0B6110C11DBE6BFD00E33973 /* RobotoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotoTests.swift; sourceTree = "<group>"; };
+		0B6110D81DBE6D1800E33973 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+UIImage.swift"; sourceTree = "<group>"; };
 		0B6FD2591DBDF9D2007624F4 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		0B9334281DBA6B8E0077C628 /* Swift Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,11 +149,12 @@
 		0B1AF3401DBA93AE00A53D39 /* Swift KitTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B1AF34B1DBA976F00A53D39 /* ArrayTests.swift */,
 				0B1AF3431DBA93AE00A53D39 /* Info.plist */,
+				0B1AF34B1DBA976F00A53D39 /* ArrayTests.swift */,
 				0B1AF3491DBA93E300A53D39 /* NSDecimalNumberTests.swift */,
 				0B1AF34D1DBA988100A53D39 /* StringTests.swift */,
 				0B1AF3411DBA93AE00A53D39 /* Swift_KitTests.swift */,
+				0B6110C11DBE6BFD00E33973 /* RobotoTests.swift */,
 			);
 			path = "Swift KitTests";
 			sourceTree = "<group>";
@@ -187,6 +196,8 @@
 		0B4CC55D1DBA6E0C003FB2F6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				0B6110BD1DBE6B8300E33973 /* Roboto.swift */,
+				0B6110BF1DBE6BCD00E33973 /* Roboto-Info.xml */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -320,6 +331,7 @@
 				0B9334341DBA6B8E0077C628 /* LaunchScreen.storyboard */,
 				0B93342F1DBA6B8E0077C628 /* Main.storyboard */,
 				0B93342D1DBA6B8E0077C628 /* ViewController.swift */,
+				0B6110D81DBE6D1800E33973 /* Fonts */,
 			);
 			path = "Swift Kit";
 			sourceTree = "<group>";
@@ -476,7 +488,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6110D91DBE6D1800E33973 /* Fonts in Resources */,
 				0B9334361DBA6B8E0077C628 /* LaunchScreen.storyboard in Resources */,
+				0B6110C01DBE6BCD00E33973 /* Roboto-Info.xml in Resources */,
 				0B9334331DBA6B8E0077C628 /* Assets.xcassets in Resources */,
 				0B9334311DBA6B8E0077C628 /* Main.storyboard in Resources */,
 			);
@@ -496,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6110C21DBE6BFD00E33973 /* RobotoTests.swift in Sources */,
 				0B1AF34C1DBA976F00A53D39 /* ArrayTests.swift in Sources */,
 				0B1AF3421DBA93AE00A53D39 /* Swift_KitTests.swift in Sources */,
 				0B1AF34E1DBA988100A53D39 /* StringTests.swift in Sources */,
@@ -535,6 +550,7 @@
 				0B4CC58F1DBA7C09003FB2F6 /* ItemsSection.swift in Sources */,
 				0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */,
 				0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */,
+				0B6110BE1DBE6B8300E33973 /* Roboto.swift in Sources */,
 				0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */,
 				0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */,
 				0BFEAE051DBE507D000F38BA /* GoogleAnalytics-Stub.swift in Sources */,
