@@ -33,6 +33,7 @@
 		0B4CC5921DBA7C09003FB2F6 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */; };
 		0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */; };
 		0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */; };
+		0B6FD2571DBDF90D007624F4 /* UIView+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */; };
 		0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */; };
 		0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342D1DBA6B8E0077C628 /* ViewController.swift */; };
 		0B9334311DBA6B8E0077C628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93342F1DBA6B8E0077C628 /* Main.storyboard */; };
@@ -90,6 +91,7 @@
 		0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
 		0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
 		0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerModel.swift; sourceTree = "<group>"; };
+		0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+UIImage.swift"; sourceTree = "<group>"; };
 		0B9334281DBA6B8E0077C628 /* Swift Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B93342D1DBA6B8E0077C628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		0B4CC55E1DBA6E13003FB2F6 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */,
 				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
 				0BA16E141DBBD17E00383850 /* ScrollViewKeyboardHelper.swift in Sources */,
+				0B6FD2571DBDF90D007624F4 /* UIView+UIImage.swift in Sources */,
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
 				0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */,
 				0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */,
