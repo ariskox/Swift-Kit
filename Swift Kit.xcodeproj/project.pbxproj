@@ -34,6 +34,7 @@
 		0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */; };
 		0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */; };
 		0B6FD2571DBDF90D007624F4 /* UIView+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */; };
+		0B6FD25A1DBDF9D2007624F4 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FD2591DBDF9D2007624F4 /* Regex.swift */; };
 		0B93342C1DBA6B8E0077C628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */; };
 		0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93342D1DBA6B8E0077C628 /* ViewController.swift */; };
 		0B9334311DBA6B8E0077C628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93342F1DBA6B8E0077C628 /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 		0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
 		0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerModel.swift; sourceTree = "<group>"; };
 		0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+UIImage.swift"; sourceTree = "<group>"; };
+		0B6FD2591DBDF9D2007624F4 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		0B9334281DBA6B8E0077C628 /* Swift Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B93342D1DBA6B8E0077C628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
 				0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */,
 				0B4CC5941DBA7C20003FB2F6 /* PickerModel */,
+				0B6FD2581DBDF9C5007624F4 /* Regex */,
 				0B4CC55C1DBA6E05003FB2F6 /* String */,
 				0B4CC5871DBA7BDF003FB2F6 /* TableModel */,
 				0B4CC5671DBA702A003FB2F6 /* UIButton */,
@@ -271,6 +274,14 @@
 				0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */,
 			);
 			name = PickerModel;
+			sourceTree = "<group>";
+		};
+		0B6FD2581DBDF9C5007624F4 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FD2591DBDF9D2007624F4 /* Regex.swift */,
+			);
+			name = Regex;
 			sourceTree = "<group>";
 		};
 		0B93341F1DBA6B8D0077C628 = {
@@ -489,6 +500,7 @@
 				0B4CC5801DBA782D003FB2F6 /* UIImage+Color.swift in Sources */,
 				0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */,
 				0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */,
+				0B6FD25A1DBDF9D2007624F4 /* Regex.swift in Sources */,
 				0B4CC57A1DBA73D0003FB2F6 /* UIImage+Colorized.swift in Sources */,
 				0B4CC5901DBA7C09003FB2F6 /* TableActions.swift in Sources */,
 				0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */,
