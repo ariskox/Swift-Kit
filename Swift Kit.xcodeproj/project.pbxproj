@@ -33,6 +33,8 @@
 		0B4CC5921DBA7C09003FB2F6 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */; };
 		0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */; };
 		0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */; };
+		0B5588AB1DBE95E300E89939 /* Alamofire+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5588AA1DBE95E300E89939 /* Alamofire+Debug.swift */; };
+		0B5588AD1DBE95F000E89939 /* Alamofire+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5588AC1DBE95F000E89939 /* Alamofire+Stub.swift */; };
 		0B6110BE1DBE6B8300E33973 /* Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6110BD1DBE6B8300E33973 /* Roboto.swift */; };
 		0B6110C01DBE6BCD00E33973 /* Roboto-Info.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0B6110BF1DBE6BCD00E33973 /* Roboto-Info.xml */; };
 		0B6110C21DBE6BFD00E33973 /* RobotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6110C11DBE6BFD00E33973 /* RobotoTests.swift */; };
@@ -98,6 +100,8 @@
 		0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
 		0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
 		0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerModel.swift; sourceTree = "<group>"; };
+		0B5588AA1DBE95E300E89939 /* Alamofire+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Debug.swift"; sourceTree = "<group>"; };
+		0B5588AC1DBE95F000E89939 /* Alamofire+Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Stub.swift"; sourceTree = "<group>"; };
 		0B6110BD1DBE6B8300E33973 /* Roboto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roboto.swift; sourceTree = "<group>"; };
 		0B6110BF1DBE6BCD00E33973 /* Roboto-Info.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Roboto-Info.xml"; sourceTree = "<group>"; };
 		0B6110C11DBE6BFD00E33973 /* RobotoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotoTests.swift; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 		0B4CC55B1DBA6E01003FB2F6 /* Kit */ = {
 			isa = PBXGroup;
 			children = (
+				0B5588A91DBE95C000E89939 /* Alamofire */,
 				0B4CC5731DBA729F003FB2F6 /* Array */,
 				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
 				0BFEAE001DBE3CBC000F38BA /* GoogleAnalytics */,
@@ -292,6 +297,14 @@
 			path = PickerModel;
 			sourceTree = "<group>";
 		};
+		0B5588A91DBE95C000E89939 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0B5588AA1DBE95E300E89939 /* Alamofire+Debug.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
 		0B6FD2581DBDF9C5007624F4 /* Regex */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,6 +378,7 @@
 			isa = PBXGroup;
 			children = (
 				0BFEAE041DBE507D000F38BA /* GoogleAnalytics-Stub.swift */,
+				0B5588AC1DBE95F000E89939 /* Alamofire+Stub.swift */,
 			);
 			path = Stubs;
 			sourceTree = "<group>";
@@ -530,6 +544,7 @@
 				0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */,
 				0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */,
 				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
+				0B5588AD1DBE95F000E89939 /* Alamofire+Stub.swift in Sources */,
 				0BA16E141DBBD17E00383850 /* ScrollViewKeyboardHelper.swift in Sources */,
 				0B6FD2571DBDF90D007624F4 /* UIView+UIImage.swift in Sources */,
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
@@ -544,6 +559,7 @@
 				0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */,
 				0B4CC58E1DBA7C09003FB2F6 /* CellSection.swift in Sources */,
 				0B93342E1DBA6B8E0077C628 /* ViewController.swift in Sources */,
+				0B5588AB1DBE95E300E89939 /* Alamofire+Debug.swift in Sources */,
 				0B4CC57E1DBA7824003FB2F6 /* UIImage+Empty.swift in Sources */,
 				0B4CC5921DBA7C09003FB2F6 /* TableModel.swift in Sources */,
 				0B4CC5781DBA7338003FB2F6 /* KeyboardNotification.swift in Sources */,
