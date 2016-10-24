@@ -44,6 +44,8 @@
 		0BA16E0E1DBBC02B00383850 /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E0D1DBBC02B00383850 /* String+Email.swift */; };
 		0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */; };
 		0BA16E141DBBD17E00383850 /* ScrollViewKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */; };
+		0BFEAE021DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEAE011DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift */; };
+		0BFEAE051DBE507D000F38BA /* GoogleAnalytics-Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEAE041DBE507D000F38BA /* GoogleAnalytics-Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		0BA16E0D1DBBC02B00383850 /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
 		0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EmailTLDs.swift"; sourceTree = "<group>"; };
 		0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewKeyboardHelper.swift; sourceTree = "<group>"; };
+		0BFEAE011DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+GoogleAnalytics.swift"; sourceTree = "<group>"; };
+		0BFEAE041DBE507D000F38BA /* GoogleAnalytics-Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GoogleAnalytics-Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			children = (
 				0B4CC5731DBA729F003FB2F6 /* Array */,
 				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
+				0BFEAE001DBE3CBC000F38BA /* GoogleAnalytics */,
 				0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */,
 				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
 				0B4CC5941DBA7C20003FB2F6 /* PickerModel */,
@@ -308,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				0B4CC55B1DBA6E01003FB2F6 /* Kit */,
+				0BFEAE031DBE5070000F38BA /* Stubs */,
 				0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */,
 				0B9334321DBA6B8E0077C628 /* Assets.xcassets */,
 				0B9334371DBA6B8E0077C628 /* Info.plist */,
@@ -333,6 +339,22 @@
 				0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */,
 			);
 			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		0BFEAE001DBE3CBC000F38BA /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				0BFEAE011DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		0BFEAE031DBE5070000F38BA /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				0BFEAE041DBE507D000F38BA /* GoogleAnalytics-Stub.swift */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,6 +511,7 @@
 				0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */,
 				0B4CC56C1DBA70EE003FB2F6 /* UIColor+RGB.swift in Sources */,
 				0BA16E0E1DBBC02B00383850 /* String+Email.swift in Sources */,
+				0BFEAE021DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift in Sources */,
 				0B4CC5961DBA7C34003FB2F6 /* PickerModel.swift in Sources */,
 				0B4CC5911DBA7C09003FB2F6 /* TableCell.swift in Sources */,
 				0B4CC5841DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift in Sources */,
@@ -514,6 +537,7 @@
 				0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */,
 				0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */,
 				0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */,
+				0BFEAE051DBE507D000F38BA /* GoogleAnalytics-Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
