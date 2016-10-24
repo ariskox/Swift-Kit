@@ -137,11 +137,11 @@
 		0B1AF3401DBA93AE00A53D39 /* Swift KitTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B1AF3411DBA93AE00A53D39 /* Swift_KitTests.swift */,
 				0B1AF34B1DBA976F00A53D39 /* ArrayTests.swift */,
-				0B1AF34D1DBA988100A53D39 /* StringTests.swift */,
-				0B1AF3491DBA93E300A53D39 /* NSDecimalNumberTests.swift */,
 				0B1AF3431DBA93AE00A53D39 /* Info.plist */,
+				0B1AF3491DBA93E300A53D39 /* NSDecimalNumberTests.swift */,
+				0B1AF34D1DBA988100A53D39 /* StringTests.swift */,
+				0B1AF3411DBA93AE00A53D39 /* Swift_KitTests.swift */,
 			);
 			path = "Swift KitTests";
 			sourceTree = "<group>";
@@ -151,39 +151,39 @@
 			children = (
 				0B4CC5731DBA729F003FB2F6 /* Array */,
 				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
-				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
 				0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */,
+				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
 				0B4CC5941DBA7C20003FB2F6 /* PickerModel */,
 				0B6FD2581DBDF9C5007624F4 /* Regex */,
 				0B4CC55C1DBA6E05003FB2F6 /* String */,
 				0B4CC5871DBA7BDF003FB2F6 /* TableModel */,
 				0B4CC5671DBA702A003FB2F6 /* UIButton */,
 				0B4CC56A1DBA70D7003FB2F6 /* UIColor */,
-				0B4CC5601DBA6E20003FB2F6 /* UIImageView */,
 				0B4CC55F1DBA6E1B003FB2F6 /* UIImage */,
-				0B4CC55E1DBA6E13003FB2F6 /* UIView */,
+				0B4CC5601DBA6E20003FB2F6 /* UIImageView */,
 				0BA16E121DBBD15B00383850 /* UIScrollView */,
+				0B4CC55E1DBA6E13003FB2F6 /* UIView */,
 			);
-			name = Kit;
+			path = Kit;
 			sourceTree = "<group>";
 		};
 		0B4CC55C1DBA6E05003FB2F6 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */,
-				0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */,
-				0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */,
 				0BA16E0D1DBBC02B00383850 /* String+Email.swift */,
 				0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */,
+				0B4CC56D1DBA7168003FB2F6 /* String+Luhn.swift */,
+				0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */,
+				0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */,
 			);
-			name = String;
+			path = String;
 			sourceTree = "<group>";
 		};
 		0B4CC55D1DBA6E0C003FB2F6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		0B4CC55E1DBA6E13003FB2F6 /* UIView */ = {
@@ -191,26 +191,26 @@
 			children = (
 				0B6FD2561DBDF90D007624F4 /* UIView+UIImage.swift */,
 			);
-			name = UIView;
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		0B4CC55F1DBA6E1B003FB2F6 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				0B4CC5791DBA73D0003FB2F6 /* UIImage+Colorized.swift */,
-				0B4CC57B1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift */,
-				0B4CC57D1DBA7824003FB2F6 /* UIImage+Empty.swift */,
 				0B4CC57F1DBA782D003FB2F6 /* UIImage+Color.swift */,
+				0B4CC5791DBA73D0003FB2F6 /* UIImage+Colorized.swift */,
 				0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */,
+				0B4CC57D1DBA7824003FB2F6 /* UIImage+Empty.swift */,
+				0B4CC57B1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift */,
 			);
-			name = UIImage;
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 		0B4CC5601DBA6E20003FB2F6 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = UIImageView;
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 		0B4CC5671DBA702A003FB2F6 /* UIButton */ = {
@@ -218,7 +218,7 @@
 			children = (
 				0B4CC5681DBA7037003FB2F6 /* UIButton+BackgroundColor.swift */,
 			);
-			name = UIButton;
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		0B4CC56A1DBA70D7003FB2F6 /* UIColor */ = {
@@ -226,17 +226,17 @@
 			children = (
 				0B4CC56B1DBA70EE003FB2F6 /* UIColor+RGB.swift */,
 			);
-			name = UIColor;
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */ = {
 			isa = PBXGroup;
 			children = (
-				0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */,
-				0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */,
 				0B4CC5851DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift */,
+				0B4CC5831DBA7A3F003FB2F6 /* NSDecimalNumber+Optional.swift */,
+				0B4CC5701DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift */,
 			);
-			name = NSDecimalNumber;
+			path = NSDecimalNumber;
 			sourceTree = "<group>";
 		};
 		0B4CC5731DBA729F003FB2F6 /* Array */ = {
@@ -244,7 +244,7 @@
 			children = (
 				0B4CC5741DBA72A9003FB2F6 /* Array+Find.swift */,
 			);
-			name = Array;
+			path = Array;
 			sourceTree = "<group>";
 		};
 		0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */ = {
@@ -252,7 +252,7 @@
 			children = (
 				0B4CC5771DBA7338003FB2F6 /* KeyboardNotification.swift */,
 			);
-			name = KeyboardNotification;
+			path = KeyboardNotification;
 			sourceTree = "<group>";
 		};
 		0B4CC5871DBA7BDF003FB2F6 /* TableModel */ = {
@@ -265,7 +265,7 @@
 				0B4CC58C1DBA7C09003FB2F6 /* TableModel.swift */,
 				0B4CC58D1DBA7C09003FB2F6 /* TableSection.swift */,
 			);
-			name = TableModel;
+			path = TableModel;
 			sourceTree = "<group>";
 		};
 		0B4CC5941DBA7C20003FB2F6 /* PickerModel */ = {
@@ -273,7 +273,7 @@
 			children = (
 				0B4CC5951DBA7C34003FB2F6 /* PickerModel.swift */,
 			);
-			name = PickerModel;
+			path = PickerModel;
 			sourceTree = "<group>";
 		};
 		0B6FD2581DBDF9C5007624F4 /* Regex */ = {
@@ -281,15 +281,15 @@
 			children = (
 				0B6FD2591DBDF9D2007624F4 /* Regex.swift */,
 			);
-			name = Regex;
+			path = Regex;
 			sourceTree = "<group>";
 		};
 		0B93341F1DBA6B8D0077C628 = {
 			isa = PBXGroup;
 			children = (
 				0B93342A1DBA6B8E0077C628 /* Swift Kit */,
-				0B93343F1DBA6B8E0077C628 /* Swift KitUITests */,
 				0B1AF3401DBA93AE00A53D39 /* Swift KitTests */,
+				0B93343F1DBA6B8E0077C628 /* Swift KitUITests */,
 				0B9334291DBA6B8E0077C628 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -309,11 +309,11 @@
 			children = (
 				0B4CC55B1DBA6E01003FB2F6 /* Kit */,
 				0B93342B1DBA6B8E0077C628 /* AppDelegate.swift */,
-				0B93342D1DBA6B8E0077C628 /* ViewController.swift */,
-				0B93342F1DBA6B8E0077C628 /* Main.storyboard */,
 				0B9334321DBA6B8E0077C628 /* Assets.xcassets */,
-				0B9334341DBA6B8E0077C628 /* LaunchScreen.storyboard */,
 				0B9334371DBA6B8E0077C628 /* Info.plist */,
+				0B9334341DBA6B8E0077C628 /* LaunchScreen.storyboard */,
+				0B93342F1DBA6B8E0077C628 /* Main.storyboard */,
+				0B93342D1DBA6B8E0077C628 /* ViewController.swift */,
 			);
 			path = "Swift Kit";
 			sourceTree = "<group>";
@@ -321,8 +321,8 @@
 		0B93343F1DBA6B8E0077C628 /* Swift KitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0B9334401DBA6B8E0077C628 /* Swift_KitUITests.swift */,
 				0B9334421DBA6B8E0077C628 /* Info.plist */,
+				0B9334401DBA6B8E0077C628 /* Swift_KitUITests.swift */,
 			);
 			path = "Swift KitUITests";
 			sourceTree = "<group>";
@@ -332,7 +332,7 @@
 			children = (
 				0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */,
 			);
-			name = UIScrollView;
+			path = UIScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,6 +547,7 @@
 				0B9334301DBA6B8E0077C628 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		0B9334341DBA6B8E0077C628 /* LaunchScreen.storyboard */ = {
@@ -555,6 +556,7 @@
 				0B9334351DBA6B8E0077C628 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
