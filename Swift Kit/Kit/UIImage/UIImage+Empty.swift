@@ -10,6 +10,10 @@ import UIKit
 
 extension UIImage {
     
+    /**
+     Returns an empty image with the requested size
+     */
+
     class func empty(size: CGSize) -> UIImage? {
         
         UIGraphicsBeginImageContext(size)

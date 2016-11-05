@@ -10,6 +10,10 @@ import UIKit
 
 extension UIImage {
     
+    /**
+     Returns an image of 'size' filled with the specified 'color'
+     */
+
     class func with(color: UIColor, size: CGSize) -> UIImage? {
         
         UIGraphicsBeginImageContext(size)

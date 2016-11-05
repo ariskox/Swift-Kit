@@ -10,6 +10,15 @@ import UIKit
 
 extension UIImage {
 
+    /**
+       Draws an image on top of the current image
+     
+     - Parameter image: the image to draw on top
+     - Parameter drawnInRect: the rectange to draw into
+     
+     - Returns: A new image with the two images combined
+     */
+
     func combinedWith(image: UIImage, drawnInRect: CGRect) -> UIImage? {
 
         let rect = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height)

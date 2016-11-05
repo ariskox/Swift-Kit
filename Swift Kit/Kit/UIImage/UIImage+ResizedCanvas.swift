@@ -28,6 +28,15 @@ struct Gravity {
 
 extension UIImage {
 
+    /**
+       Enlarges the canvas size of an image, and
+     
+     - Parameter size: The new image size. It should be greater than the current size
+     - Parameter gravity: Specify where the old image should be drawn in the new canvas (ex: top & left or bottom & center)
+     
+     - Returns: The image drawn in the bigger canvas
+     */
+
     func resizedTo(size: CGSize, gravity: Gravity) -> UIImage? {
         
         UIGraphicsBeginImageContextWithOptions(size, false, self.scale)
