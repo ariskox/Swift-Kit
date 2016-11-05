@@ -8,6 +8,12 @@
 
 import Foundation
 
+/**
+    A wrapper for regular expressions. Initialize once with a pattern
+    and then test() if a string matches
+ 
+ */
+
 struct Regex {
     let internalExpression: NSRegularExpression
     let pattern: String

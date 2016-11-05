@@ -10,6 +10,10 @@ import Foundation
 
 extension String {
     
+    /**
+     Returns an uppercase string with all accent removed
+     */
+
     func uppercaseAccentRemovedString() -> String {
         
         let trimmedSelf = self.trimmingCharacters(in: CharacterSet.whitespaces)

@@ -10,6 +10,12 @@ import Foundation
 
 extension String {
     
+    /**
+     Check if the (numeric) string is a Luhn number.
+     
+     - Returns: True if the string is Luhn, false otherwise
+     */
+
     func isLuhn() -> Bool {
         let badCharacters = NSCharacterSet.decimalDigits.inverted
         

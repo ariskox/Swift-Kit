@@ -10,7 +10,14 @@ import Foundation
 
 extension String {
     
-    // Set 'extended' to true to check for all valid IANA TLDs
+    /**
+     Checks whether the string is a valid email
+     
+     - Parameter extended: Set to true to check for all valid IANA TLDs, else only a handful of domains are checked
+     
+     - Returns: True if is a valid email, false otherwise
+     */
+
     func isEmail(extended: Bool = false) -> Bool {
         let range = NSMakeRange(0, self.characters.count)
         let emailRegex = "[A-Z0-9a-z][A-Z0-9a-z._%+-]*@[A-Za-z0-9][A-Za-z0-9.-]*\\.[A-Za-z]{2,6}"
