@@ -50,6 +50,7 @@
 		0BA16E0E1DBBC02B00383850 /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E0D1DBBC02B00383850 /* String+Email.swift */; };
 		0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */; };
 		0BA16E141DBBD17E00383850 /* ScrollViewKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */; };
+		0BE3BFB21E5B36720003B9F2 /* UIImage+Grayscale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3BFB11E5B36720003B9F2 /* UIImage+Grayscale.swift */; };
 		0BFEAE021DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEAE011DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift */; };
 		0BFEAE051DBE507D000F38BA /* GoogleAnalytics-Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEAE041DBE507D000F38BA /* GoogleAnalytics-Stub.swift */; };
 /* End PBXBuildFile section */
@@ -121,6 +122,7 @@
 		0BA16E0D1DBBC02B00383850 /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
 		0BA16E101DBBC95500383850 /* String+EmailTLDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EmailTLDs.swift"; sourceTree = "<group>"; };
 		0BA16E131DBBD17E00383850 /* ScrollViewKeyboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewKeyboardHelper.swift; sourceTree = "<group>"; };
+		0BE3BFB11E5B36720003B9F2 /* UIImage+Grayscale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Grayscale.swift"; sourceTree = "<group>"; };
 		0BFEAE011DBE3CEC000F38BA /* UIViewController+GoogleAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+GoogleAnalytics.swift"; sourceTree = "<group>"; };
 		0BFEAE041DBE507D000F38BA /* GoogleAnalytics-Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GoogleAnalytics-Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -223,6 +225,7 @@
 				0B4CC5811DBA78FC003FB2F6 /* UIImage+Combine.swift */,
 				0B4CC57D1DBA7824003FB2F6 /* UIImage+Empty.swift */,
 				0B4CC57B1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift */,
+				0BE3BFB11E5B36720003B9F2 /* UIImage+Grayscale.swift */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -550,6 +553,7 @@
 				0B4CC56E1DBA7168003FB2F6 /* String+Luhn.swift in Sources */,
 				0BA16E111DBBC95500383850 /* String+EmailTLDs.swift in Sources */,
 				0B4CC57C1DBA756A003FB2F6 /* UIImage+ResizedCanvas.swift in Sources */,
+				0BE3BFB21E5B36720003B9F2 /* UIImage+Grayscale.swift in Sources */,
 				0B4CC5801DBA782D003FB2F6 /* UIImage+Color.swift in Sources */,
 				0B4CC5821DBA78FC003FB2F6 /* UIImage+Combine.swift in Sources */,
 				0B4CC5711DBA71B5003FB2F6 /* NSDecimalNumbers+Helpers.swift in Sources */,
