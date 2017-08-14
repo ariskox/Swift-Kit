@@ -12,6 +12,11 @@ protocol OptionalString {}
 extension String: OptionalString {}
 
 extension Optional where Wrapped: OptionalString {
+    
+    /**
+        Returns true if the optional String is nil or empty
+     */
+
     var isNilOrEmpty: Bool {
         return ((self as? String) ?? "").isEmpty
     }

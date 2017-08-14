@@ -10,6 +10,10 @@ import UIKit
 
 extension UIView {
     
+    /**
+        Returns the contents of the view as a UIImage. Useful for creating complex view
+     */
+
     func getImage() -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(self.bounds.size, false, 0)
         

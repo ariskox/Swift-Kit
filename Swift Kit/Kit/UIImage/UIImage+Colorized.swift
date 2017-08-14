@@ -10,6 +10,10 @@ import UIKit
 
 extension UIImage {
 
+    /**
+     Returns a colorized copy of the current image
+     */
+
     func colorized(color: UIColor) -> UIImage? {
         let rect = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, self.scale)
