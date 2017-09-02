@@ -11,6 +11,7 @@
 		0B1AF34A1DBA93E300A53D39 /* NSDecimalNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AF3491DBA93E300A53D39 /* NSDecimalNumberTests.swift */; };
 		0B1AF34C1DBA976F00A53D39 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AF34B1DBA976F00A53D39 /* ArrayTests.swift */; };
 		0B1AF34E1DBA988100A53D39 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AF34D1DBA988100A53D39 /* StringTests.swift */; };
+		0B47525A1F5B2FA10097C5CE /* NSAttributedString+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4752591F5B2FA10097C5CE /* NSAttributedString+Size.swift */; };
 		0B4CC5641DBA6E38003FB2F6 /* String+Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */; };
 		0B4CC5661DBA6E42003FB2F6 /* String+Uppercase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */; };
 		0B4CC5691DBA7037003FB2F6 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CC5681DBA7037003FB2F6 /* UIButton+BackgroundColor.swift */; };
@@ -79,6 +80,7 @@
 		0B1AF3491DBA93E300A53D39 /* NSDecimalNumberTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTests.swift; sourceTree = "<group>"; };
 		0B1AF34B1DBA976F00A53D39 /* ArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		0B1AF34D1DBA988100A53D39 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		0B4752591F5B2FA10097C5CE /* NSAttributedString+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Size.swift"; sourceTree = "<group>"; };
 		0B4CC5631DBA6E38003FB2F6 /* String+Nil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Nil.swift"; sourceTree = "<group>"; };
 		0B4CC5651DBA6E42003FB2F6 /* String+Uppercase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Uppercase.swift"; sourceTree = "<group>"; };
 		0B4CC5681DBA7037003FB2F6 /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
@@ -165,6 +167,14 @@
 			path = "Swift KitTests";
 			sourceTree = "<group>";
 		};
+		0B4752581F5B2F8B0097C5CE /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				0B4752591F5B2FA10097C5CE /* NSAttributedString+Size.swift */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
 		0B4CC55B1DBA6E01003FB2F6 /* Kit */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 				0B4CC55D1DBA6E0C003FB2F6 /* Fonts */,
 				0BFEAE001DBE3CBC000F38BA /* GoogleAnalytics */,
 				0B4CC5761DBA7324003FB2F6 /* KeyboardNotification */,
+				0B4752581F5B2F8B0097C5CE /* NSAttributedString */,
 				0B4CC56F1DBA71A1003FB2F6 /* NSDecimalNumber */,
 				0B4CC5941DBA7C20003FB2F6 /* PickerModel */,
 				0B6FD2581DBDF9C5007624F4 /* Regex */,
@@ -573,6 +584,7 @@
 				0B6110BE1DBE6B8300E33973 /* Roboto.swift in Sources */,
 				0B4CC5861DBA7A62003FB2F6 /* NSDecimalNumber+NSNumber.swift in Sources */,
 				0B4CC5931DBA7C09003FB2F6 /* TableSection.swift in Sources */,
+				0B47525A1F5B2FA10097C5CE /* NSAttributedString+Size.swift in Sources */,
 				0BFEAE051DBE507D000F38BA /* GoogleAnalytics-Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
