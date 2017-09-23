@@ -28,4 +28,21 @@ struct Regex {
         
         return self.internalExpression.matches(in: input, options: [], range: range).count > 0
     }
+
+    func groupMatchesFor(string input: String) -> [String] {
+        let range = NSMakeRange(0, (input as NSString).length)
+        let matches = self.internalExpression.matches(in: input, options: [], range: range)
+        guard matches.count > 0 else { return [] }
+        
+        var groupsCaptured = [String]()
+        for match in matches {
+            // match 0 is the whole string
+            for i in 1..<match.numberOfRanges {
+                let nsrange = match.range(at: i)
+                let range = Range(nsrange, in: input)!
+                groupsCaptured.append( String(input[range]))
+            }
+        }
+        return groupsCaptured
+    }
 }
